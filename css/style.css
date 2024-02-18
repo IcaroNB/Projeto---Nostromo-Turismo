@@ -346,6 +346,8 @@ footer {
     padding: 0 2rem;
   }
   .navbarItems li {
+    display: block;
+    flex-direction: column;
     font-size: 12px;
     margin-left: 10px;
   }
@@ -373,7 +375,7 @@ footer {
     font-size: 28px;
   }
   .searchDomainContainer input[type="text"] {
-    font-size: 18px;
+    font-size: 16px;
     width: 100%;
   }
   .contactContainer input,
